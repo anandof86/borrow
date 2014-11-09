@@ -38,7 +38,9 @@ module.exports.routes = {
   'post /user': 'UserController.register',
   'post /user/activate' : 'UserController.activate',
   'post /user/resend' : 'UserController.resend',
-  'post /title' : 'ItemsController.getTitle'
+  'post /title' : 'ItemsController.getTitle',
+  'post /item' : 'ItemsController.createItem',
+  'post /items' : 'ItemsController.listItem'
   
   /***************************************************************************
   *                                                                          *
